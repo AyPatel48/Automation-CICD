@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-07T10:53:13 EDT" name="Surefire suite" finished-at="2024-05-07T10:54:12 EDT" duration-ms="58133">
+    <groups>
+      <group name="purchaseOrder">
+        <method signature="standAloneTest.submitOrder(java.util.HashMap)[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" name="submitOrder" class="seleniumCompany.tests.standAloneTest"/>
+        <method signature="standAloneTest.orderHistoryTest(java.util.HashMap)[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" name="orderHistoryTest" class="seleniumCompany.tests.standAloneTest"/>
+      </group> <!-- purchaseOrder -->
+    </groups>
+    <test started-at="2024-05-07T10:53:13 EDT" name="Surefire test" finished-at="2024-05-07T10:54:12 EDT" duration-ms="58133">
+      <class name="seleniumCompany.tests.standAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:53:14 EDT" name="launchApplication" finished-at="2024-05-07T10:53:22 EDT" duration-ms="8697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:53:22 EDT" name="submitOrder" data-provider="getData" finished-at="2024-05-07T10:53:40 EDT" duration-ms="17653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=RahulShetty#1234, product=ZARA COAT 3, email=email@eg.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:53:40 EDT" name="tearDown" finished-at="2024-05-07T10:53:40 EDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:53:40 EDT" name="launchApplication" finished-at="2024-05-07T10:53:48 EDT" duration-ms="7963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:53:48 EDT" name="submitOrder" data-provider="getData" finished-at="2024-05-07T10:53:54 EDT" duration-ms="5590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=RahulShetty#1234, product=ADIDAS ORIGINAL, email=email@eg.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:53:54 EDT" name="tearDown" finished-at="2024-05-07T10:53:54 EDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:53:54 EDT" name="launchApplication" finished-at="2024-05-07T10:54:02 EDT" duration-ms="7909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:54:02 EDT" name="orderHistoryTest" data-provider="getData" finished-at="2024-05-07T10:54:03 EDT" depends-on-methods="seleniumCompany.tests.standAloneTest.submitOrder" duration-ms="907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=RahulShetty#1234, product=ZARA COAT 3, email=email@eg.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:54:03 EDT" name="tearDown" finished-at="2024-05-07T10:54:03 EDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:54:03 EDT" name="launchApplication" finished-at="2024-05-07T10:54:11 EDT" duration-ms="7954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:54:11 EDT" name="orderHistoryTest" data-provider="getData" finished-at="2024-05-07T10:54:11 EDT" depends-on-methods="seleniumCompany.tests.standAloneTest.submitOrder" duration-ms="868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=RahulShetty#1234, product=ADIDAS ORIGINAL, email=email@eg.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumCompany.tests.standAloneTest@161b062a]" started-at="2024-05-07T10:54:11 EDT" name="tearDown" finished-at="2024-05-07T10:54:12 EDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumCompany.tests.standAloneTest -->
+      <class name="seleniumCompany.tests.AppTest">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:seleniumCompany.tests.AppTest@780cb77]" started-at="2024-05-07T10:53:13 EDT" name="shouldAnswerWithTrue" finished-at="2024-05-07T10:53:13 EDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- seleniumCompany.tests.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
