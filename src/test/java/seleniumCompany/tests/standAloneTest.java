@@ -26,6 +26,7 @@ import seleniumCompany.data.dataReader;
 
 public class standAloneTest extends BaseTest{
 	
+	//Submit Order Test
 	@Test(dataProvider="getData", groups="purchaseOrder")
 	public void submitOrder(HashMap<String, String> input) throws InterruptedException, IOException {
 
