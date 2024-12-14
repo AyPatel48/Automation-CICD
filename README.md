@@ -46,6 +46,6 @@ Since this is a personal project tied to a course I completed, contributions are
 
 ## 📜 License
 
-This repository is for personal and educational purposes only, intended as a reference for those interested in the `Selenium WebDriver with Java - Basics to Advanced` course material.
+This repository is licensed under the MIT License. You are free to use and modify the code as per the license terms, intended as a reference for those interested in the `Selenium WebDriver with Java - Basics to Advanced` course material.
 
 Happy coding! 🚀
